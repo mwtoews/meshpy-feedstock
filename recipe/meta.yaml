@@ -49,7 +49,7 @@ test:
 
 about:
   home: http://github.com/inducer/meshpy
-  license: MIT, Proprietary (Triangle), AGPL-3.0 (TetGen)
+  license: MIT AND LicenseRef-Proprietary-Triangle AND AGPL-3.0-or-later
   license_file: doc/faq.rst
   summary: 'Triangular and Tetrahedral Mesh Generator'
 
