@@ -1,7 +1,7 @@
 {% set name = "meshpy" %}
 {% set uname = "MeshPy" %}
-{% set version = "2018.2.1" %}
-{% set sha256 = "4e6d18c2d19cda540967b6dc6ca844926020c9134cb4075c0f73d47fbbdb2f9e" %}
+{% set version = "2020.1" %}
+{% set sha256 = "7b14eef33ccfb7974c058cea04672bfcd66e57dfcfa6a65cf01943b08964e879" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1002
+  number: 0
   script:
     - "{{ PYTHON }} -m pip install . --no-deps -v"
     - echo src/cpp/tetgen-LICENSE >> doc/faq.rst
