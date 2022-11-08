@@ -57,7 +57,7 @@ about:
   license_file: doc/faq.rst
   summary: Triangular and Tetrahedral Mesh Generator
 
-  description: |4
+  description: |
 
     MeshPy offers quality triangular and tetrahedral mesh generation for
     Python. Meshes of this type are chiefly used in finite-element
