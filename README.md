@@ -15,20 +15,9 @@ Documentation: https://documen.tician.de/meshpy
 
 
 MeshPy offers quality triangular and tetrahedral mesh generation for
-Python. Meshes of this type are chiefly used in finite-element
+Python. Meshes of this type are mainly used in finite-element
 simulation codes, but also have many other applications ranging from
 computer graphics to robotics.
-
-In order to generate 2D and 3D meshes, MeshPy provides Python interfaces
-to three well-regarded mesh generators,
-[Triangle](http://www.cs.cmu.edu/~quake/triangle.html) by J. Shewchuk,
-[TetGen](http://tetgen.berlios.de/) by Hang Si, and
-[gmsh](http://www.geuz.org/gmsh/) by Christophe Geuzaine and
-Jean-Francois Remacle. The former two are included in the package in
-slightly modified versions. A generic mesh reader for the latter is
-included, as is an easy way to run gmsh from a Python script.
-
-As of Version 0.91.2, MeshPy also works with Python 3.
 
 
 Current build status
@@ -319,4 +308,5 @@ Feedstock Maintainers
 
 * [@inducer](https://github.com/inducer/)
 * [@isuruf](https://github.com/isuruf/)
+* [@mwtoews](https://github.com/mwtoews/)
 
