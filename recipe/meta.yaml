@@ -36,6 +36,7 @@ requirements:
     - pytest
     - six
     - pybind11
+    - setuptools
   run:
     - python
     - pytools
