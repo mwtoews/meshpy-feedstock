@@ -33,7 +33,7 @@ requirements:
     - pip
     - numpy
     - pybind11
-    - setuptools
+    - meson-python
   run:
     - python
     - numpy
@@ -43,7 +43,9 @@ test:
     - test/*
   requires:
     - pytest
+    - pip
   commands:
+    - pip check
     - pytest test
   imports:
     - meshpy
