@@ -28,12 +28,12 @@ requirements:
     - {{ compiler('c') }}
     - {{ stdlib("c") }}
     - {{ compiler('cxx') }}
-    - meson-python
   host:
     - python
     - pip
     - numpy
     - pybind11
+    - meson-python
   run:
     - python
     - numpy
