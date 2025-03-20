@@ -35,6 +35,7 @@ requirements:
     - numpy
     - pybind11
     - meson-python
+    - ninja
   run:
     - python
     - numpy
