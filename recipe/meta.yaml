@@ -17,7 +17,7 @@ build:
   script:
     - {{ PYTHON }} -m pip install . --no-deps -v
     - echo src/cpp/tetgen-LICENSE >> doc/faq.rst
-  skip: true  # [py<310]
+  skip: true  # [py<313 or win or linux]
 
 requirements:
   build:
